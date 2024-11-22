@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #eee;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    background-color: #fff;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 0px 10px #777;
+    padding: 20px;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+form input {
+    border: 1px solid #bbb;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#todo-list li {
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #777;
+}
+button {
+    background-color: green;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.job-done {
+    text-decoration: line-through;
+    color: #777;
+}
